@@ -14,7 +14,7 @@ start:
     mov es, ax
 
     mov ah, 0x02
-    mov al, 0x20
+    mov al, 0x20 ;extended the size available for the kernel for a more simple development, when kernel is done the idea is to adapt the number of sectors to the size
     mov ch, 0x00
     mov cl, 0x02
     mov dh, 0x00
