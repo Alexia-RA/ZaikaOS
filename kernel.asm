@@ -187,7 +187,7 @@ hang:
 
 
 prompt_text db "zaikaos# ", 0
-input_buffer times 4096 db 0
+input_buffer times 80 db 0
 file_buffer times 4096 db 0
 
 saved db "The file was saved succesfully", 0
