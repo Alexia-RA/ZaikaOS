@@ -1,0 +1,2 @@
+This project isn't finished yet, is meant to include a basic shell for read and write as a experimental 16 bits OS.
+It's been tested in qemu with architecture x86_64 in -nographic, so may give issues if tried with other VMs.
