@@ -257,8 +257,3 @@ cat_cmd db "cat", 0
 ;Nano variables
 guide db "Press tab to exit nano", 0
 control db "Press q for exit without saving or x for exit saving"
-
-
-;reading variables
-cylinder db 0
-sector db 0
